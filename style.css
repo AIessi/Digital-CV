@@ -1,0 +1,41 @@
+html {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    padding: 5px;
+    margin: 10px;
+}
+
+.header {
+    display: grid;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.navbar-item {
+    font-weight: bold;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    color: orange; 
+    transition: 0.3s;
+}
+
+#welcome-message {
+    text-align: center;
+    font-size: 100px;
+}
+
+footer {
+    text-align: center;
+}
